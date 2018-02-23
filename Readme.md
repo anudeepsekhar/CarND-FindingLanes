@@ -79,8 +79,10 @@ show_images(test_images)
 
 ```
 
+<figure>
+ <img src="P1-Submission Outputs/output_6_0.png" width="380" alt="Combined Image" />
+ <figcaption>
 
-![png](P1-Submission Outputs/output_6_0.png)
 
 
 ## Converting Images to 'HLS Colorspace'
