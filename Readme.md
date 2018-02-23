@@ -80,7 +80,7 @@ show_images(test_images)
 ```
 
 <figure>
- <img src="P1-Submission Outputs/output_6_0.png" width="380" alt="Combined Image" />
+ <img src="P1-Submission Outputs/output_6_0.png" width="420" alt="Test Images" align = "center" />
  <figcaption>
 
 
