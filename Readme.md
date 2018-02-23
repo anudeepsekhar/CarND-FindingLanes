@@ -80,7 +80,7 @@ show_images(test_images)
 ```
 
 
-![png](output_6_0.png)
+![png](P1-Submission Outputs/output_6_0.png)
 
 
 ## Converting Images to 'HLS Colorspace'
@@ -125,7 +125,7 @@ show_images(white_yellow_images)
 ```
 
 
-![png](output_8_0.png)
+![png](P1-Submission Outputs/output_8_0.png)
 
 
 ## Applying Canny Edge 
@@ -156,7 +156,7 @@ show_images(gray_images)
 ```
 
 
-![png](output_11_0.png)
+![png](P1-Submission Outputs/output_11_0.png)
 
 
 ### Applying Gaussian Blur to the Images
@@ -178,7 +178,7 @@ show_images(blur_images)
 ```
 
 
-![png](output_13_0.png)
+![png](P1-Submission Outputs/output_13_0.png)
 
 
 ### Applying Canny Edge  Detection 
@@ -205,7 +205,7 @@ show_images(canny_images)
 ```
 
 
-![png](output_15_0.png)
+![png](P1-Submission Outputs/output_15_0.png)
 
 
 ## Defining the Region of Interest (RoI)
@@ -232,7 +232,7 @@ show_images(roi_images)
 ```
 
 
-![png](output_17_0.png)
+![png](P1-Submission Outputs/output_17_0.png)
 
 
 ## Applying Hough Transform
@@ -318,7 +318,7 @@ show_images(hough_images)
 ```
 
 
-![png](output_19_0.png)
+![png](P1-Submission Outputs/output_19_0.png)
 
 
 # Finding the Lanes
@@ -434,7 +434,7 @@ plt.show()
 ```
 
 
-![png](output_24_0.png)
+![png](P1-Submission Outputs/output_24_0.png)
 
 
 # Finding Lanes Pipeline
@@ -461,7 +461,7 @@ show_images(lanes)
 ```
 
 
-![png](output_26_0.png)
+![png](P1-Submission Outputs/output_26_0.png)
 
 
 ## Test on Videos
