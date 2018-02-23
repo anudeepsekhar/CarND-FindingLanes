@@ -82,6 +82,10 @@ show_images(test_images)
 <figure>
  <img src="P1-Submission Outputs/output_6_0.png" width="420" alt="Test Images" align = "center" />
  <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
 
 
@@ -126,9 +130,13 @@ white_yellow_images = list(map(select_white_yellow, test_images))
 show_images(white_yellow_images)
 ```
 
-
-![png](P1-Submission Outputs/output_8_0.png)
-
+<figure>
+ <img src="P1-Submission Outputs/output_8_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
 ## Applying Canny Edge 
 
@@ -157,8 +165,14 @@ gray_images = list(map(convert_gray_scale, white_yellow_images))
 show_images(gray_images)
 ```
 
+<figure>
+ <img src="P1-Submission Outputs/output_11_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
-![png](P1-Submission Outputs/output_11_0.png)
 
 
 ### Applying Gaussian Blur to the Images
@@ -179,8 +193,13 @@ blur_images = list(map(apply_blur, gray_images))
 show_images(blur_images)
 ```
 
-
-![png](P1-Submission Outputs/output_13_0.png)
+<figure>
+ <img src="P1-Submission Outputs/output_13_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
 
 ### Applying Canny Edge  Detection 
@@ -206,8 +225,14 @@ canny_images = list(map(apply_canny, blur_image))
 show_images(canny_images)
 ```
 
+<figure>
+ <img src="P1-Submission Outputs/output_15_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
-![png](P1-Submission Outputs/output_15_0.png)
 
 
 ## Defining the Region of Interest (RoI)
@@ -233,8 +258,14 @@ roi_images = list(map(roi, canny_images))
 show_images(roi_images)
 ```
 
+<figure>
+ <img src="P1-Submission Outputs/output_17_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
-![png](P1-Submission Outputs/output_17_0.png)
 
 
 ## Applying Hough Transform
@@ -319,8 +350,14 @@ show_images(hough_images)
 
 ```
 
+<figure>
+ <img src="P1-Submission Outputs/output_19_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
-![png](P1-Submission Outputs/output_19_0.png)
 
 
 # Finding the Lanes
@@ -435,8 +472,14 @@ plt.tight_layout(pad=0, h_pad=0, w_pad=0)
 plt.show()
 ```
 
+<figure>
+ <img src="P1-Submission Outputs/output_24_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
-![png](P1-Submission Outputs/output_24_0.png)
 
 
 # Finding Lanes Pipeline
@@ -462,8 +505,14 @@ show_images(lanes)
 
 ```
 
+<figure>
+ <img src="P1-Submission Outputs/output_26_0.png" width="420" alt="Test Images" align = "center" />
+ <figcaption>
+ <p></p> 
+ <p style="text-align: center;"> Your output should look something like this </p> 
+ </figcaption>
+</figure>
 
-![png](P1-Submission Outputs/output_26_0.png)
 
 
 ## Test on Videos
