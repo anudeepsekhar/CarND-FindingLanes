@@ -18,19 +18,13 @@ Finally applied these techniques in processing the video to find the lanes on th
 
 ---
 
-<figure>
- <img src="examples/line-segments-example.jpg" width="380" alt="Combined Image" />
- <figcaption>
- <p></p> 
- <p style="text-align: center;"> Your output should look something like this (above) after detecting line segments using the helper functions below </p> 
- </figcaption>
-</figure>
+
  <p></p> 
 <figure>
- <img src="examples/laneLines_thirdPass.jpg" width="380" alt="Combined Image" />
+ <img src="examples/laneLines_thirdPass.jpg" width="500" alt="Combined Image" />
  <figcaption>
  <p></p> 
- <p style="text-align: center;"> Your goal is to connect/average/extrapolate line segments to get output like this</p> 
+ <p style="text-align: center;"> Your output should look something like this (above) after detecting line segments using the pipeline below </p> 
  </figcaption>
 </figure>
 
